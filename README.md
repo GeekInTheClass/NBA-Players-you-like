@@ -8,3 +8,7 @@
 
 
 [![IMAGE ALT TEXT](https://www.youtube.com/watch?v=LAr6oAKieHk)](https://www.youtube.com/watch?v=LAr6oAKieHk "video title")
+
+## 조던의 우람한 근육을 감상해보자 친구들
+
+조단: ![IMAGE ALT TEXT](http://cfile25.uf.tistory.com/image/211853405414E64319C953 "조단")
