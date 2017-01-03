@@ -7,7 +7,7 @@
 
 
 
-[![IMAGE ALT TEXT](tp://cfile25.uf.tistory.com/image/211853405414E64319C953)](https://www.youtube.com/watch?v=LAr6oAKieHk tc "video title")
+[![IMAGE ALT TEXT](ttp://cfile25.uf.tistory.com/image/211853405414E64319C953)](https://www.youtube.com/watch?v=LAr6oAKieHk tc "video title")
 
 
 
