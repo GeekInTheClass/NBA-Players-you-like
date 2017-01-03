@@ -9,6 +9,12 @@
 
 [![IMAGE ALT TEXT](https://www.youtube.com/watch?v=LAr6oAKieHk)](https://www.youtube.com/watch?v=LAr6oAKieHk "video title")
 
+
 # 르브론 제임스
 
 ## 역대 최고를 논할 만큼 사기적인 신체 조건 및 운동 능력과 뛰어난 센스를 바탕으로 파워, 스피드, 패싱, 리바운드, 체력, 내구성 등 모든 파라미터를 대도 거진 다 잘하는 탈지구인급 만능 선수. 206cm의 신장과 113kg의 체중을 가지고 있는데[49], 스피드도 엄청나고 윙스팬도 7 ft ½. 간단하게 말하자면 파워 포워드의 신체를 가지고 가드처럼 움직이는 선수. 
+
+## 조던의 우람한 근육을 감상해보자 친구들
+
+조단: ![IMAGE ALT TEXT](http://cfile25.uf.tistory.com/image/211853405414E64319C953 "조단")
+
