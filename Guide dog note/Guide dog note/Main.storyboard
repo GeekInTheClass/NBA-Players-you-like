@@ -36,10 +36,6 @@
                                     <segue destination="YA9-sU-3Jd" kind="show" id="z94-Uw-1qz"/>
                                 </connections>
                             </button>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="qYr-es-seC">
-                                <rect key="frame" x="168" y="581" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -81,6 +77,10 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="JaG-Ls-Cqf">
+                                <rect key="frame" x="51" y="340" width="118" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1483603706872" translatesAutoresizingMaskIntoConstraints="NO" id="F9F-6s-rcM">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -128,9 +128,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="svA-5U-yti"/>
                     <navigationItem key="navigationItem" title="cell biology" id="w5g-lf-ATX">
-                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="edit" id="HfT-hg-B2H">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="add" id="HfT-hg-B2H">
                             <connections>
-                                <segue destination="lfa-0a-KBu" kind="presentation" id="fIj-N9-U0o"/>
+                                <segue destination="TjX-rH-Ses" kind="show" id="BDb-QD-T0Q"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -139,13 +139,37 @@
             </objects>
             <point key="canvasLocation" x="1940" y="111.99400299850076"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oGg-C3-BFC">
+            <objects>
+                <viewController id="rkD-py-MnU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MYw-J0-Cp2"/>
+                        <viewControllerLayoutGuide type="bottom" id="gqf-8g-gLn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HnL-5T-pMo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1483511061783" translatesAutoresizingMaskIntoConstraints="NO" id="jFw-uH-CMS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Rl-CQ-2bZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1297" y="832"/>
+        </scene>
         <!--Item-->
         <scene sceneID="qD0-Gh-Sr7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jqk-Mb-xKp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="pdh-Oy-WyX"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="aIu-D8-Jy2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="aIu-D8-Jy2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -156,7 +180,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79L-QG-6Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="503.19999999999999" y="111.99400299850076"/>
+            <point key="canvasLocation" x="106" y="112"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Iky-dP-uyK">
@@ -205,7 +229,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tz-mI-skD">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Tz-mI-skD">
                                 <rect key="frame" x="292" y="295" width="22" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -227,37 +251,6 @@
             </objects>
             <point key="canvasLocation" x="2772" y="111.99400299850076"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="95m-Lr-qOm">
-            <objects>
-                <viewController id="V67-0Y-isJ" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uRJ-ek-mEt"/>
-                        <viewControllerLayoutGuide type="bottom" id="W46-v5-nJd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KA1-CZ-QBu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4g-fN-da0">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="SNX-tF-xbK"/>
-                                    <tabBarItem systemItem="more" id="RrB-Hb-QKn"/>
-                                </items>
-                            </tabBar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ilo-JB-KhZ"/>
-                    <navigationItem key="navigationItem" title="Title" id="37G-0W-HFk"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vhi-aM-PZP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="319" y="894"/>
-        </scene>
     </scenes>
     <resources>
         <image name="1483511061783" width="386" height="720"/>
@@ -267,6 +260,7 @@
         <image name="1483603706872" width="384" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="CVJ-cC-35e"/>
         <segue reference="O4d-t6-E4a"/>
     </inferredMetricsTieBreakers>
 </document>
