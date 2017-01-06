@@ -179,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Rl-CQ-2bZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2310" y="-878"/>
+            <point key="canvasLocation" x="2257" y="-937"/>
         </scene>
         <!--Item-->
         <scene sceneID="qD0-Gh-Sr7">
@@ -199,6 +199,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79L-QG-6Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="106" y="112"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="inE-lU-1a9">
+            <objects>
+                <viewController id="eys-V6-ahJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UnT-ew-Ng7"/>
+                        <viewControllerLayoutGuide type="bottom" id="ek5-M1-Std"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5II-FW-h1I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1483603704217" translatesAutoresizingMaskIntoConstraints="NO" id="QEY-9b-gZR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBY-74-HeY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3573.5999999999999" y="-790.25487256371821"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Iky-dP-uyK">
@@ -279,7 +303,7 @@
         <image name="1483603706872" width="384" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="utV-fd-kHj"/>
         <segue reference="CVJ-cC-35e"/>
+        <segue reference="O4d-t6-E4a"/>
     </inferredMetricsTieBreakers>
 </document>
