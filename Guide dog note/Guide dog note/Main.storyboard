@@ -50,7 +50,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1208.8" y="111.99400299850076"/>
+            <point key="canvasLocation" x="940" y="112"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dld-eh-fjL">
@@ -91,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2iG-5M-KE5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2772" y="-620"/>
+            <point key="canvasLocation" x="2708" y="-620"/>
         </scene>
         <!--Item-->
         <scene sceneID="qD0-Gh-Sr7">
@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPb-ct-o3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4332" y="188"/>
+            <point key="canvasLocation" x="4543" y="112"/>
         </scene>
         <!--12.07 2016-->
         <scene sceneID="c9S-kH-dcl">
@@ -182,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Cb-Bo-7Ih" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3546" y="121"/>
+            <point key="canvasLocation" x="3546" y="112"/>
         </scene>
         <!--Cell Biology-->
         <scene sceneID="jZh-CA-mUw">
@@ -225,7 +225,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUh-lZ-jzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2199" y="121"/>
+            <point key="canvasLocation" x="1812" y="112"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="kCE-wn-GzJ">
@@ -378,7 +378,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ejV-9L-mzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2815" y="20"/>
+            <point key="canvasLocation" x="2708" y="11"/>
         </scene>
         <!--12/07/2016-->
         <scene sceneID="QVV-IQ-oef">
@@ -422,6 +422,6 @@
         <image name="1483944131370" width="398" height="720"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="O4d-t6-E4a"/>
+        <segue reference="utV-fd-kHj"/>
     </inferredMetricsTieBreakers>
 </document>
