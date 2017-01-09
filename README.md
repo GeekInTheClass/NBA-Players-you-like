@@ -7,7 +7,7 @@
 
 
 
-[![IMAGE ALT TEXT](https://www.youtube.com/watch?v=LAr6oAKieHk.jpg tc)](https://www.youtube.com/watch?v=LAr6oAKieHk tc "video title")
+[동영상](https://www.youtube.com/watch?v=LAr6oAKieHk)
 
 
 
