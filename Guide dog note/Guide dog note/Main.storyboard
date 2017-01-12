@@ -518,10 +518,42 @@
             </objects>
             <point key="canvasLocation" x="1812" y="-1327.2863568215894"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker Scene-->
+        <scene sceneID="Ggv-VL-1nc">
+            <objects>
+                <viewController id="wYP-43-IBA" customClass="PickerScene" customModule="Guide_dog_note" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ngv-eh-hAM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tP0-Rw-nLb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zWF-Jy-IHy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhR-8L-HYL">
+                                <rect key="frame" x="0.0" y="367" width="375" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="column">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="string" keyPath="plistName" value="Recordduration"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ezl-3v-AUB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5785" y="-678"/>
+        </scene>
+        <!--popover host-->
         <scene sceneID="Iky-dP-uyK">
             <objects>
-                <viewController id="0hL-Yr-wgP" sceneMemberID="viewController">
+                <viewController title="popover host" id="0hL-Yr-wgP" customClass="PopoverHostScene" customModule="Guide_dog_note" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="poY-41-SaV"/>
                         <viewControllerLayoutGuide type="bottom" id="Uru-SO-sIK"/>
@@ -541,13 +573,23 @@
                                     <action selector="modalDismiss:" destination="0hL-Yr-wgP" eventType="touchUpInside" id="sRM-f3-hq6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90d-DQ-8nD">
+                                <rect key="frame" x="181" y="584" width="82" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Speed"/>
+                                <connections>
+                                    <segue destination="Jip-Rq-fYH" kind="popoverPresentation" popoverAnchorView="90d-DQ-8nD" id="lZA-oH-b5I">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPb-ct-o3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4401" y="-656"/>
+            <point key="canvasLocation" x="4401" y="-677"/>
         </scene>
         <!--12/07/2016-->
         <scene sceneID="c9S-kH-dcl">
@@ -579,6 +621,14 @@
                                     <segue destination="Cel-yN-56b" kind="show" id="zrQ-YQ-OKL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQU-nZ-1S3">
+                                <rect key="frame" x="16" y="208" width="343" height="284.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Cell biology focuses more on the study of eukaryotic cells, and their signalling pathways, rather than on prokaryotes which is covered under microbiology. The main constituents of the general molecular composition of the cell includes: proteins and lipids which are either free flowing or membrane bound, along with different internal comp</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -595,7 +645,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Cb-Bo-7Ih" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4401" y="112"/>
+            <point key="canvasLocation" x="4400.8000000000002" y="111.99400299850076"/>
         </scene>
         <!--12/07/2016-->
         <scene sceneID="ahf-lx-oiQ">
@@ -627,6 +677,14 @@
                                     <segue destination="TjX-rH-Ses" kind="show" animates="NO" id="nt7-Ae-rNv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7z-Ru-qps">
+                                <rect key="frame" x="16" y="208" width="343" height="284.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Cell biology focuses more on the study of eukaryotic cells, and their signalling pathways, rather than on prokaryotes which is covered under microbiology. The main constituents of the general molecular composition of the cell includes: proteins and lipids which are either free flowing or membrane bound, along with different internal comp</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1096,6 +1154,35 @@
             </objects>
             <point key="canvasLocation" x="940" y="922"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Auh-ko-3BT">
+            <objects>
+                <viewController id="Jip-Rq-fYH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DaE-QJ-n9k"/>
+                        <viewControllerLayoutGuide type="bottom" id="kiC-K2-pL7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="X7l-Cj-6ee">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pop !!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbf-X3-6fN">
+                                <rect key="frame" x="78" y="39" width="44" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="200" height="100"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="200" height="100"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jdn-aq-aCu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4998" y="-655"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1483603702858" width="386" height="720"/>
@@ -1105,6 +1192,6 @@
         <image name="새 파일 4_1" width="904" height="1688"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9iz-QB-8Zj"/>
+        <segue reference="UIQ-6q-CbO"/>
     </inferredMetricsTieBreakers>
 </document>

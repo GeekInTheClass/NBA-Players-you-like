@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "947C2E411E1CC21D00012B65"
-               BuildableName = "Guide dog note.app"
-               BlueprintName = "Guide dog note"
-               ReferencedContainer = "container:Guide dog note.xcodeproj">
+               BuildableName = "Guide note.app"
+               BlueprintName = "Guide note"
+               ReferencedContainer = "container:Guide note.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "947C2E551E1CC21E00012B65"
-               BuildableName = "Guide dog noteTests.xctest"
-               BlueprintName = "Guide dog noteTests"
-               ReferencedContainer = "container:Guide dog note.xcodeproj">
+               BuildableName = "Guide noteTests.xctest"
+               BlueprintName = "Guide noteTests"
+               ReferencedContainer = "container:Guide note.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "947C2E601E1CC21E00012B65"
-               BuildableName = "Guide dog noteUITests.xctest"
-               BlueprintName = "Guide dog noteUITests"
-               ReferencedContainer = "container:Guide dog note.xcodeproj">
+               BuildableName = "Guide noteUITests.xctest"
+               BlueprintName = "Guide noteUITests"
+               ReferencedContainer = "container:Guide note.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "947C2E411E1CC21D00012B65"
-            BuildableName = "Guide dog note.app"
-            BlueprintName = "Guide dog note"
-            ReferencedContainer = "container:Guide dog note.xcodeproj">
+            BuildableName = "Guide note.app"
+            BlueprintName = "Guide note"
+            ReferencedContainer = "container:Guide note.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "947C2E411E1CC21D00012B65"
-            BuildableName = "Guide dog note.app"
-            BlueprintName = "Guide dog note"
-            ReferencedContainer = "container:Guide dog note.xcodeproj">
+            BuildableName = "Guide note.app"
+            BlueprintName = "Guide note"
+            ReferencedContainer = "container:Guide note.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "947C2E411E1CC21D00012B65"
-            BuildableName = "Guide dog note.app"
-            BlueprintName = "Guide dog note"
-            ReferencedContainer = "container:Guide dog note.xcodeproj">
+            BuildableName = "Guide note.app"
+            BlueprintName = "Guide note"
+            ReferencedContainer = "container:Guide note.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

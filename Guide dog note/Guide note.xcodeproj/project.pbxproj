@@ -16,6 +16,7 @@
 		947C2E741E1CCD0200012B65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947C2E731E1CCD0200012B65 /* Assets.xcassets */; };
 		94C6866F1E1F65CE0067AA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C6866E1E1F65CE0067AA46 /* Main.storyboard */; };
 		94C686711E1F69440067AA46 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C686701E1F69440067AA46 /* UIViewController+Navigation.swift */; };
+		E57FEFCD1E276F1100525071 /* Recordduration.plist in Resources */ = {isa = PBXBuildFile; fileRef = E57FEFCC1E276F1100525071 /* Recordduration.plist */; };
 		E58269921E260CE300E73959 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58269891E260CE300E73959 /* CHContentViewController.swift */; };
 		E58269931E260CE300E73959 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E582698A1E260CE300E73959 /* CHControls.swift */; };
 		E58269941E260CE300E73959 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E582698B1E260CE300E73959 /* CHModalViewController.swift */; };
@@ -45,21 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		947C2E421E1CC21E00012B65 /* Guide dog note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guide dog note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947C2E421E1CC21E00012B65 /* Guide note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guide note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947C2E451E1CC21E00012B65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		947C2E471E1CC21E00012B65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		947C2E4C1E1CC21E00012B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947C2E4F1E1CC21E00012B65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		947C2E511E1CC21E00012B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		947C2E561E1CC21E00012B65 /* Guide dog noteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guide dog noteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947C2E561E1CC21E00012B65 /* Guide noteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guide noteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947C2E5A1E1CC21E00012B65 /* Guide_dog_noteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide_dog_noteTests.swift; sourceTree = "<group>"; };
 		947C2E5C1E1CC21E00012B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		947C2E611E1CC21E00012B65 /* Guide dog noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guide dog noteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947C2E611E1CC21E00012B65 /* Guide noteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guide noteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947C2E651E1CC21E00012B65 /* Guide_dog_noteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide_dog_noteUITests.swift; sourceTree = "<group>"; };
 		947C2E671E1CC21E00012B65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		947C2E731E1CCD0200012B65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C6866E1E1F65CE0067AA46 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		94C686701E1F69440067AA46 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		E57FEFCC1E276F1100525071 /* Recordduration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Recordduration.plist; sourceTree = "<group>"; };
 		E58269891E260CE300E73959 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
 		E582698A1E260CE300E73959 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
 		E582698B1E260CE300E73959 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
@@ -109,9 +111,9 @@
 		947C2E431E1CC21E00012B65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				947C2E421E1CC21E00012B65 /* Guide dog note.app */,
-				947C2E561E1CC21E00012B65 /* Guide dog noteTests.xctest */,
-				947C2E611E1CC21E00012B65 /* Guide dog noteUITests.xctest */,
+				947C2E421E1CC21E00012B65 /* Guide note.app */,
+				947C2E561E1CC21E00012B65 /* Guide noteTests.xctest */,
+				947C2E611E1CC21E00012B65 /* Guide noteUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,6 +126,7 @@
 				94C686701E1F69440067AA46 /* UIViewController+Navigation.swift */,
 				947C2E4E1E1CC21E00012B65 /* LaunchScreen.storyboard */,
 				94C6866E1E1F65CE0067AA46 /* Main.storyboard */,
+				E57FEFCC1E276F1100525071 /* Recordduration.plist */,
 				E58269891E260CE300E73959 /* CHContentViewController.swift */,
 				E582698A1E260CE300E73959 /* CHControls.swift */,
 				E582698B1E260CE300E73959 /* CHModalViewController.swift */,
@@ -161,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		947C2E411E1CC21D00012B65 /* Guide dog note */ = {
+		947C2E411E1CC21D00012B65 /* Guide note */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 947C2E6A1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog note" */;
+			buildConfigurationList = 947C2E6A1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide note" */;
 			buildPhases = (
 				947C2E3E1E1CC21D00012B65 /* Sources */,
 				947C2E3F1E1CC21D00012B65 /* Frameworks */,
@@ -173,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = "Guide dog note";
+			name = "Guide note";
 			productName = "Guide dog note";
-			productReference = 947C2E421E1CC21E00012B65 /* Guide dog note.app */;
+			productReference = 947C2E421E1CC21E00012B65 /* Guide note.app */;
 			productType = "com.apple.product-type.application";
 		};
-		947C2E551E1CC21E00012B65 /* Guide dog noteTests */ = {
+		947C2E551E1CC21E00012B65 /* Guide noteTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 947C2E6D1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog noteTests" */;
+			buildConfigurationList = 947C2E6D1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide noteTests" */;
 			buildPhases = (
 				947C2E521E1CC21E00012B65 /* Sources */,
 				947C2E531E1CC21E00012B65 /* Frameworks */,
@@ -191,14 +194,14 @@
 			dependencies = (
 				947C2E581E1CC21E00012B65 /* PBXTargetDependency */,
 			);
-			name = "Guide dog noteTests";
+			name = "Guide noteTests";
 			productName = "Guide dog noteTests";
-			productReference = 947C2E561E1CC21E00012B65 /* Guide dog noteTests.xctest */;
+			productReference = 947C2E561E1CC21E00012B65 /* Guide noteTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		947C2E601E1CC21E00012B65 /* Guide dog noteUITests */ = {
+		947C2E601E1CC21E00012B65 /* Guide noteUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 947C2E701E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog noteUITests" */;
+			buildConfigurationList = 947C2E701E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide noteUITests" */;
 			buildPhases = (
 				947C2E5D1E1CC21E00012B65 /* Sources */,
 				947C2E5E1E1CC21E00012B65 /* Frameworks */,
@@ -209,9 +212,9 @@
 			dependencies = (
 				947C2E631E1CC21E00012B65 /* PBXTargetDependency */,
 			);
-			name = "Guide dog noteUITests";
+			name = "Guide noteUITests";
 			productName = "Guide dog noteUITests";
-			productReference = 947C2E611E1CC21E00012B65 /* Guide dog noteUITests.xctest */;
+			productReference = 947C2E611E1CC21E00012B65 /* Guide noteUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 947C2E3D1E1CC21D00012B65 /* Build configuration list for PBXProject "Guide dog note" */;
+			buildConfigurationList = 947C2E3D1E1CC21D00012B65 /* Build configuration list for PBXProject "Guide note" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -253,9 +256,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				947C2E411E1CC21D00012B65 /* Guide dog note */,
-				947C2E551E1CC21E00012B65 /* Guide dog noteTests */,
-				947C2E601E1CC21E00012B65 /* Guide dog noteUITests */,
+				947C2E411E1CC21D00012B65 /* Guide note */,
+				947C2E551E1CC21E00012B65 /* Guide noteTests */,
+				947C2E601E1CC21E00012B65 /* Guide noteUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +271,7 @@
 				947C2E501E1CC21E00012B65 /* LaunchScreen.storyboard in Resources */,
 				947C2E4D1E1CC21E00012B65 /* Assets.xcassets in Resources */,
 				947C2E741E1CCD0200012B65 /* Assets.xcassets in Resources */,
+				E57FEFCD1E276F1100525071 /* Recordduration.plist in Resources */,
 				94C6866F1E1F65CE0067AA46 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,12 +333,12 @@
 /* Begin PBXTargetDependency section */
 		947C2E581E1CC21E00012B65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 947C2E411E1CC21D00012B65 /* Guide dog note */;
+			target = 947C2E411E1CC21D00012B65 /* Guide note */;
 			targetProxy = 947C2E571E1CC21E00012B65 /* PBXContainerItemProxy */;
 		};
 		947C2E631E1CC21E00012B65 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 947C2E411E1CC21D00012B65 /* Guide dog note */;
+			target = 947C2E411E1CC21D00012B65 /* Guide note */;
 			targetProxy = 947C2E621E1CC21E00012B65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "junhyungcha.Guide-dog-noteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guide dog note.app/Guide dog note";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guide note.app/Guide note";
 			};
 			name = Debug;
 		};
@@ -492,7 +496,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "junhyungcha.Guide-dog-noteTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guide dog note.app/Guide dog note";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Guide note.app/Guide note";
 			};
 			name = Release;
 		};
@@ -525,7 +529,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		947C2E3D1E1CC21D00012B65 /* Build configuration list for PBXProject "Guide dog note" */ = {
+		947C2E3D1E1CC21D00012B65 /* Build configuration list for PBXProject "Guide note" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				947C2E681E1CC21E00012B65 /* Debug */,
@@ -534,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		947C2E6A1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog note" */ = {
+		947C2E6A1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide note" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				947C2E6B1E1CC21E00012B65 /* Debug */,
@@ -543,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		947C2E6D1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog noteTests" */ = {
+		947C2E6D1E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide noteTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				947C2E6E1E1CC21E00012B65 /* Debug */,
@@ -552,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		947C2E701E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide dog noteUITests" */ = {
+		947C2E701E1CC21E00012B65 /* Build configuration list for PBXNativeTarget "Guide noteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				947C2E711E1CC21E00012B65 /* Debug */,
