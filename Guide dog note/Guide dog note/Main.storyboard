@@ -21,11 +21,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1483511061783" translatesAutoresizingMaskIntoConstraints="NO" id="pPz-PS-ahr">
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qZj-rv-WG0">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                            </imageView>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="B8r-Bs-D3L" kind="embed" id="CJh-6W-Ttm"/>
+                                </connections>
+                            </containerView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF4-H8-0GI">
                                 <rect key="frame" x="23" y="102" width="142" height="242"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -224,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="939.5" y="111.5"/>
+            <point key="canvasLocation" x="938.39999999999998" y="111.0944527736132"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="d4Z-f0-MEO">
@@ -244,7 +246,7 @@
             <objects>
                 <tableViewController id="LVw-Nk-IPy" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="my1-bj-2L0">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
@@ -369,7 +371,7 @@
         <scene sceneID="LzX-py-jcP">
             <objects>
                 <navigationController id="oU7-pP-fye" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="blackTranslucent" id="hbe-0I-A0b">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" barStyle="blackTranslucent" translucent="NO" id="hbe-0I-A0b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -398,7 +400,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79L-QG-6Tx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="487" y="112"/>
+            <point key="canvasLocation" x="254" y="112"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="R2x-KJ-CCv">
@@ -671,7 +673,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUh-lZ-jzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1517" y="112"/>
+            <point key="canvasLocation" x="1626" y="112"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="kCE-wn-GzJ">
@@ -1018,7 +1020,7 @@
             <objects>
                 <tableViewController id="UTt-cA-J0j" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="oyx-2C-Req">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
@@ -1152,12 +1154,32 @@
             </objects>
             <point key="canvasLocation" x="2534" y="-640"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="P0e-ot-6zp">
+            <objects>
+                <viewController id="B8r-Bs-D3L" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VVT-y1-jQ2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="missions_bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="NZi-kb-ssX">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZPV-Bp-s7r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421.60000000000002" y="891.90404797601207"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="1483511061783" width="386" height="720"/>
         <image name="1483603702858" width="386" height="720"/>
         <image name="1483603705136" width="384" height="720"/>
         <image name="1483944131370" width="398" height="720"/>
+        <image name="missions_bg_image" width="800" height="450"/>
         <image name="새 파일 4_1" width="904" height="1688"/>
     </resources>
     <inferredMetricsTieBreakers>
