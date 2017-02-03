@@ -55,10 +55,12 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                 let request = PHAssetCollectionChangeRequest.creationRequestForAssetCollection(withTitle: albumName)
 
             },
-            completionHandler: {(success : Bool, error:NSError!) in
-                NSLog("creation of folder --> %@", ((success)? "Success" : "Error!"))
-        })
-        
+            completionHandler: nil)
+//            {(success:Bool, error:NSError!)in
+//                NSLog("creation of folder --> %@", (success ? true : false))
+//                self.albumFound = (success ? true : false)
+//            }
+       
     }
 }
 
