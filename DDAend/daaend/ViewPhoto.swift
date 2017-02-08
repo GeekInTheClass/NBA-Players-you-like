@@ -53,6 +53,7 @@ class ViewPhoto: UIViewController {
         
     }
 
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -103,9 +104,33 @@ class ViewPhoto: UIViewController {
         
                 if let output = filter?.value(forKey: kCIOutputImageKey) as? CIImage{
                     self.bigPhoto?.image = UIImage(cgImage: context.createCGImage(output, from: output.extent)!)
+                    
+                    
+                    PHPhotoLibrary.shared().performChanges({
+                        let creationRequest = PHAssetChangeRequest.creationRequestForAsset(from: (self.bigPhoto?.image)!)
+                        if let assetCollection = self.assetCollection {
+                            let addAssetRequest = PHAssetCollectionChangeRequest(for: assetCollection)
+                            addAssetRequest?.addAssets([creationRequest.placeholderForCreatedAsset!] as NSArray)
+                        }
+                    }, completionHandler: {success, error in
+                        if !success { print("error creating asset: \(error)") }
+            
+
+                        
+                    })
+                    
+                
+                    
                 }
+        
+
     }
     
+    
+    
+    
+    
 }
+
 
 

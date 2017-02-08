@@ -14,6 +14,7 @@
 		AC038FD61E4AEAC800B47805 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC038FD51E4AEAC800B47805 /* CollectionViewCell.swift */; };
 		AC038FD91E4AEAE300B47805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC038FD71E4AEAE300B47805 /* ViewController.swift */; };
 		AC038FDA1E4AEAE300B47805 /* ViewPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC038FD81E4AEAE300B47805 /* ViewPhoto.swift */; };
+		AC038FDC1E4B0C0800B47805 /* scrollViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = AC038FDB1E4B0C0800B47805 /* scrollViewController .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AC038FD51E4AEAC800B47805 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		AC038FD71E4AEAE300B47805 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC038FD81E4AEAE300B47805 /* ViewPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPhoto.swift; sourceTree = "<group>"; };
+		AC038FDB1E4B0C0800B47805 /* scrollViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "scrollViewController .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				AC038FBB1E4AE95800B47805 /* AppDelegate.swift */,
 				AC038FBF1E4AE95800B47805 /* Main.storyboard */,
 				AC038FD51E4AEAC800B47805 /* CollectionViewCell.swift */,
-				AC038FD71E4AEAE300B47805 /* ViewController.swift */,
 				AC038FD81E4AEAE300B47805 /* ViewPhoto.swift */,
+				AC038FDB1E4B0C0800B47805 /* scrollViewController .swift */,
+				AC038FD71E4AEAE300B47805 /* ViewController.swift */,
 				AC038FC21E4AE95800B47805 /* Assets.xcassets */,
 				AC038FC41E4AE95800B47805 /* LaunchScreen.storyboard */,
 				AC038FC71E4AE95800B47805 /* Info.plist */,
@@ -145,6 +148,7 @@
 				AC038FD91E4AEAE300B47805 /* ViewController.swift in Sources */,
 				AC038FDA1E4AEAE300B47805 /* ViewPhoto.swift in Sources */,
 				AC038FD61E4AEAC800B47805 /* CollectionViewCell.swift in Sources */,
+				AC038FDC1E4B0C0800B47805 /* scrollViewController .swift in Sources */,
 				AC038FBC1E4AE95800B47805 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

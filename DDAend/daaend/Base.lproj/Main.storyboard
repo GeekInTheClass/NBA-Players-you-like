@@ -45,9 +45,7 @@
                                 </constraints>
                                 <connections>
                                     <outlet property="imgVu" destination="DOP-Ks-QFs" id="m5k-5A-adf"/>
-                                    <segue destination="fZ8-UY-CaD" kind="show" identifier="viewLargePhoto" id="CA7-Ll-oae">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="JvQ-yH-GM4" kind="show" identifier="viewLargePhoto" id="Oyv-r6-syO"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -75,7 +73,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xKs-lv-1fI">
-                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -100,7 +98,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emg-uS-HmA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2023" y="36"/>
+            <point key="canvasLocation" x="3034" y="36"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="46V-uj-fwf">
@@ -123,6 +121,57 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QR9-Qi-KmT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="352.80000000000001" y="35.532233883058474"/>
+        </scene>
+        <!--changeFilter-->
+        <scene sceneID="6bg-e2-YeG">
+            <objects>
+                <viewController id="JvQ-yH-GM4" customClass="scrollViewController" customModule="daaend" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jEH-RX-d00"/>
+                        <viewControllerLayoutGuide type="bottom" id="lC4-qL-tS4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fSl-a0-Mu8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82S-pQ-mLY">
+                                <rect key="frame" x="0.0" y="106" width="375" height="389"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IBp-ai-R4G">
+                                <rect key="frame" x="0.0" y="106" width="375" height="389"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8kq-Km-B1R">
+                                <rect key="frame" x="0.0" y="535" width="375" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="82S-pQ-mLY" firstAttribute="centerY" secondItem="IBp-ai-R4G" secondAttribute="centerY" id="UZ7-JR-frL"/>
+                            <constraint firstItem="IBp-ai-R4G" firstAttribute="centerY" secondItem="fSl-a0-Mu8" secondAttribute="centerY" constant="-33" id="Vh3-jN-Rej"/>
+                            <constraint firstItem="IBp-ai-R4G" firstAttribute="centerX" secondItem="fSl-a0-Mu8" secondAttribute="centerX" id="W7D-Kv-mS8"/>
+                            <constraint firstItem="82S-pQ-mLY" firstAttribute="height" secondItem="IBp-ai-R4G" secondAttribute="height" id="nNH-BO-3Qr"/>
+                            <constraint firstItem="82S-pQ-mLY" firstAttribute="width" secondItem="IBp-ai-R4G" secondAttribute="width" id="vhw-wT-NYA"/>
+                            <constraint firstItem="82S-pQ-mLY" firstAttribute="centerX" secondItem="IBp-ai-R4G" secondAttribute="centerX" id="vtk-ib-gAz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="changeFilter" id="6L5-g9-F2h">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="u1Z-BA-JQO">
+                            <connections>
+                                <action selector="save:" destination="JvQ-yH-GM4" id="TRO-v1-iqU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="containerView" destination="fSl-a0-Mu8" id="fao-Kh-nFm"/>
+                        <outlet property="filterScrollView" destination="8kq-Km-B1R" id="j6v-7D-c6o"/>
+                        <outlet property="imageToFilter" destination="IBp-ai-R4G" id="e6a-sy-fjo"/>
+                        <outlet property="originalImage" destination="82S-pQ-mLY" id="UKr-wt-2WD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YWm-HE-tbC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2053.5999999999999" y="35.532233883058474"/>
         </scene>
     </scenes>
 </document>
