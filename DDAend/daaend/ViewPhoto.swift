@@ -34,14 +34,14 @@ class ViewPhoto: UIViewController {
         if assetto.canPerform(.content) {
             // Add actions for some canned filters.
             alertController.addAction(UIAlertAction(title: NSLocalizedString("Sepia Tone", comment: ""),
-                                                    style: .default, handler: nil))
+                                                    style: .default, handler: {(alert: UIAlertAction!) in self.filterPhoto()}))
 
             alertController.addAction(UIAlertAction(title: NSLocalizedString("Chrome", comment: ""),
-                                                    style: .default, handler: nil))
+                                                    style: .default, handler: {(alert: UIAlertAction!) in self.filterPhoto()}))
             
             // Add actions to revert any edits that have been made to the PHAsset.
             alertController.addAction(UIAlertAction(title: NSLocalizedString("Revert", comment: ""),
-                                                    style: .default, handler: nil))
+                                                    style: .default, handler: {(alert: UIAlertAction!) in self.filterPhoto()}))
         }
         // Present the UIAlertController.
         present(alertController, animated: true)
@@ -76,7 +76,7 @@ class ViewPhoto: UIViewController {
     }
     */
 
-    func filterPhoto(_: UIAlertAction) -> (){
+    func filterPhoto() -> (){
                 guard let image = self.bigPhoto.image?.cgImage else { return }
                 //이게 뭐냐면 가드렛안되면 그냥 브레이크하는것임
                 // nil 이 아니면 다음 문단으로 넘어가라
