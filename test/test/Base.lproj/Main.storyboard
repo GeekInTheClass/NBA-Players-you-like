@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oKm-26-Jqv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="168"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nph-B6-Ket">
+                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="168"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q4r-HN-0WY">
+                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="168"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Q4r-HN-0WY" firstAttribute="centerY" secondItem="Nph-B6-Ket" secondAttribute="centerY" id="LfX-a8-iIL"/>
+                                    <constraint firstItem="Q4r-HN-0WY" firstAttribute="top" secondItem="Nph-B6-Ket" secondAttribute="top" id="hzI-9c-qcG"/>
+                                    <constraint firstItem="Q4r-HN-0WY" firstAttribute="baseline" secondItem="Nph-B6-Ket" secondAttribute="baseline" id="noK-bg-m1V"/>
+                                    <constraint firstItem="Q4r-HN-0WY" firstAttribute="bottom" secondItem="Nph-B6-Ket" secondAttribute="bottom" id="tEE-Ej-Ag6"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3G-0g-So7">
+                                <rect key="frame" x="142" y="352" width="92" height="30"/>
+                                <state key="normal" title="Import Image"/>
+                                <connections>
+                                    <action selector="importImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0w9-l9-G7Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n3G-0g-So7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="33" id="Hbm-a5-Gpd"/>
+                            <constraint firstItem="oKm-26-Jqv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LaY-wL-m9n"/>
+                            <constraint firstAttribute="trailing" secondItem="oKm-26-Jqv" secondAttribute="trailing" id="p9b-HG-CEX"/>
+                            <constraint firstItem="oKm-26-Jqv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="qBB-xs-CS9"/>
+                            <constraint firstItem="n3G-0g-So7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y8Q-Fo-Gqz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView" destination="Nph-B6-Ket" id="bYQ-FB-CIr"/>
+                        <outlet property="myImageView3" destination="Q4r-HN-0WY" id="RjK-ai-9Yr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-778.39999999999998" y="713.79310344827593"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="cfk-LJ-mIt">
+            <objects>
+                <viewController id="knm-3P-H4H" customClass="ViewController2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pG7-u6-e7I"/>
+                        <viewControllerLayoutGuide type="bottom" id="J7w-Qz-MbN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XvX-DV-75h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ezo-n9-fRi">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ezo-n9-fRi" secondAttribute="trailing" id="F2N-Sa-sCC"/>
+                            <constraint firstItem="ezo-n9-fRi" firstAttribute="leading" secondItem="XvX-DV-75h" secondAttribute="leading" id="bYz-x0-eol"/>
+                            <constraint firstItem="ezo-n9-fRi" firstAttribute="top" secondItem="XvX-DV-75h" secondAttribute="top" id="cCj-j9-pWV"/>
+                            <constraint firstItem="J7w-Qz-MbN" firstAttribute="top" secondItem="ezo-n9-fRi" secondAttribute="bottom" id="vTD-EL-KqU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView2" destination="ezo-n9-fRi" id="Iwb-4Y-ZkI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kt5-3m-X6E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1756" y="714"/>
+        </scene>
+    </scenes>
+</document>

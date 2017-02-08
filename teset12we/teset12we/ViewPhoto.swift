@@ -7,9 +7,15 @@
 //
 
 import UIKit
+import Photos
 
 class ViewPhoto: UIViewController {
 
+    var assetCollection : PHAssetCollection!
+    var photosAsset : PHFetchResult<PHAsset>!
+    var index : Int = 0
+    
+    
     @IBAction func btnCancel(_ sender: Any) {
         print("Cancel")
         self.navigationController?.popViewController(animated: true)
@@ -22,26 +28,35 @@ class ViewPhoto: UIViewController {
     }
     @IBOutlet weak var imgView: UIImageView!
 
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         // Do any additional setup after loading the view.
     }
 
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.hidesBarsOnTap = true
+        self.displayPhoto()
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func displayPhoto(){
+        let imageManager = PHImageManager.default()
+        var ID = imageManager.requestImage(for: self.photosAsset[self.index], targetSize: PHImageManagerMaximumSize, contentMode: .aspectFit, options: nil, resultHandler: {(result:UIImage!, info:[AnyHashable: Any]?) in
+            self.imgView.image = result} as! (UIImage?, [AnyHashable : Any]?) -> Void)
     }
-    */
 
 }
