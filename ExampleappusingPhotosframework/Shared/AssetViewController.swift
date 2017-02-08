@@ -100,6 +100,7 @@ class AssetViewController: UIViewController {
                 popoverController.barButtonItem = sender
                 popoverController.permittedArrowDirections = .up
             }
+            
         #endif
 
         // Add a Cancel action to dismiss the alert without doing anything.

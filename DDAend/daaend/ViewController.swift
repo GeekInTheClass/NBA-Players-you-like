@@ -15,6 +15,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
     
     var imageArray = [UIImage]()
     var imageArray2 = [UIImage]()
+    var PHArray = [PHAsset]()
     
     
     
@@ -51,6 +52,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
                     
                     imgManager.requestImage(for: fetchResult.object(at: i) as! PHAsset, targetSize: CGSize(width: 200, height: 200), contentMode: .aspectFill, options: requestOptions, resultHandler: {image, Error in
                     self.imageArray.append(image!)
+                    self.PHArray.append(fetchResult.object(at: i))
                     print("Succeesssss")
                     })
                     
@@ -106,6 +108,7 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
             let controller : ViewPhoto = segue.destination as! ViewPhoto
             let indexpath = self.collectionView?.indexPath(for: sender as! UICollectionViewCell)
             controller.index = indexpath!.item
+            controller.assetto = PHArray[indexpath!.row]
 //            controller.photosAsset = self.
 //            controller.assetCollection = self.assetCollection
             controller.imageBoo = imageArray[controller.index]
